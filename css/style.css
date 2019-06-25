@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap');
+
+@media only screen and (max-width: 450px) {
+    .container {
+        width:100% !important;
+    }
+    
+    .header img {
+        margin:auto;
+    }
+    
+    .header span {
+        display: inline-block;
+        margin: 10px 10px 0 0;
+        padding: 5px 10px;
+        margin:auto;
+    }
+    
+    .container {
+        min-width:300px !important;
+    }
+}
+
+body {
+    margin:0;
+    padding:0;
+    background-color: #171717;
+    background-image:url("../img/bg.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    background-color: #FFF;
+    width:30%;
+    height:100%;
+    min-width:400px;
+}
+
+.header {
+    display:flex;
+    flex-wrap: wrap;
+    padding-top:50px;
+    padding-left:75px;
+    padding-right:75px;
+    text-align: center;
+}
+
+.ip {
+    position:relative;
+    padding-top:30px;
+    font-family: raleway,Arial,Helvetica,sans-serif;
+    font-size:18px;
+    font-weight: 600;
+    float:right;
+}
+
+.logo {
+    width: 110px;
+}
+
+.login {
+    padding-left:75px;
+    padding-right:75px;
+    margin-top:100px;
+    text-transform: uppercase;
+}
+
+.login .title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color:#2a2a2a;
+}
+
+.login form {
+    margin-top: 30px;
+}
+
+.cred {
+    width:100%;
+    border:none;
+    background-color: #e9e9e9;
+    margin-bottom:15px;
+    height:50px;
+    font-size:20px;
+    padding-left:15px;
+    color:#4c4c4c;
+}
+
+ input[type=checkbox]:checked + label  {
+     color: #000;
+}
+
+.me {
+    font-family: raleway,Arial,Helvetica,sans-serif;
+    color:#a6a6a6;
+    margin-bottom:15px;
+}
+
+input[type=submit] {
+    background:url(../img/arrow.png);
+    border:0;
+    display:block;
+    height:100px;
+    width: 100px;
+    color:#2a2a2a;
+    font-size:0px;
+    float:right;
+    cursor:pointer;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    color:black;
+    padding-bottom:50px;
+    padding-left:75px;
+}
+
+a {
+    text-decoration: none;
+    color:#4c4c4c;
+}
+
+a:hover {
+    color:#000;
+}
+
+.footer span {
+    color:#4c4c4c;
+    font-family: raleway,Arial,Helvetica,sans-serif;
+    font-size:18px;
+    display:block;
+}
