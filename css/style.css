@@ -140,3 +140,19 @@ a:hover {
     font-size:18px;
     display:block;
 }
+
+#login_form {
+    display:block;
+}
+
+#register_form {
+    display:none;
+}
+
+#ca {
+    display:block;
+}
+
+#si {
+    display:none;
+}
