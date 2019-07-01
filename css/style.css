@@ -139,6 +139,7 @@ a:hover {
     font-family: raleway,Arial,Helvetica,sans-serif;
     font-size:18px;
     display:block;
+    cursor: pointer;
 }
 
 #login_form {
@@ -155,4 +156,10 @@ a:hover {
 
 #si {
     display:none;
+}
+
+.warning {
+    margin-top:10px;
+    font-family: raleway,Arial,Helvetica,sans-serif;
+    color:red;
 }
